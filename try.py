@@ -19,6 +19,7 @@ def process_data():
     # return jsonify(output_dict)
 
     output_dict = {str(index + 1): value for index, value in enumerate(output_dict.values())}
+    print(output_dict)
     return jsonify(output_dict)
 
 
