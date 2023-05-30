@@ -3,7 +3,7 @@ import pandas as pd
 
 app = Flask(__name__)
 
-@app.route('/')
+@app.route('/AgCane')
 def process_data():
     a = request.args.get('a')
     a = eval(a)  # Convert string to dictionary
